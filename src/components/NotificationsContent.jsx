@@ -21,7 +21,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { useProfile } from "@/contexts/ProfileContext";
+import { useProfile } from "@/contexts/profileContext";
 import InboxDialog from "@/utils/Inbox/Dialog";
 
 export default function NotificationsContent({ session }) {

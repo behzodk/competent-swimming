@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 import { supabase } from '../lib/supabaseClient';
 import { allNavItems } from '../utils/DashboardLayout.jsx/utils';
 import HtmlSidebar from '../utils/DashboardLayout.jsx/HtmlSidebar';
-import { useProfile } from '@/contexts/ProfileContext';
+import { useProfile } from '@/contexts/profileContext';
 
 export default function DashboardLayout({ session }) {
   const location = useLocation();

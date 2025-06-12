@@ -17,7 +17,7 @@ import {
 import { User, ChevronDown, Users2 } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { supabase } from '@/lib/supabaseClient'
-import { useProfile } from '@/contexts/ProfileContext'
+import { useProfile } from '@/contexts/profileContext'
 
 export default function Footer() {
   const navigate = useNavigate()

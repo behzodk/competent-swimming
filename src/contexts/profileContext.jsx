@@ -1,4 +1,4 @@
-// src/contexts/ProfileContext.jsx
+// src/contexts/profileContext.jsx
 import React, { createContext, useContext, useEffect, useState } from 'react'
 import { supabase } from '@/lib/supabaseClient'
 

@@ -6,7 +6,7 @@ import {
   Lock,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { useProfile } from "@/contexts/ProfileContext"
+import { useProfile } from "@/contexts/profileContext"
 import { supabase } from "../lib/supabaseClient"
 import { useNavigate } from "react-router-dom"
 import { SubscriptionAlert } from "@/utils/ProfileView/SubscriptionAlert"

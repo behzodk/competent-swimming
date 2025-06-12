@@ -10,7 +10,7 @@ import MonthlyView from "../utils/Calendar/MonthlyView"
 import DialogView from "../utils/Calendar/DialogView"
 import { navigateDate } from "../utils/Calendar/utils"
 import { supabase } from "@/lib/supabaseClient"
-import { useProfile } from "@/contexts/ProfileContext"
+import { useProfile } from "@/contexts/profileContext"
 import { useNavigate } from "react-router-dom"
 
 export default function CalendarView({ session }) {

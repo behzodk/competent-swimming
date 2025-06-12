@@ -3,8 +3,7 @@ import {
   CreditCard,
   Lock,
 } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { useProfile } from "@/contexts/ProfileContext"
+import { Button } from "@/components/ui/profileContext"
 import { supabase } from "../lib/supabaseClient"
 import { useNavigate } from "react-router-dom"
 import { SubscriptionAlert } from "@/utils/ProfileView/SubscriptionAlert" 

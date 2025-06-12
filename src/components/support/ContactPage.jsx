@@ -3,7 +3,7 @@ import { supabase } from "../../lib/supabaseClient";
 import { AlertSuccess, AlertDestructive, AlertTitle, AlertDescription } from "@/components/ui/alert";
 import GeneralForm from "@/utils/Contact/generalForm";
 import InstructorForm from "@/utils/Contact/instructorForm";
-import { useProfile } from "@/contexts/ProfileContext";
+import { useProfile } from "@/contexts/profileContext";
 
 export default function ContactPage({ session }) {
   const { profile, activeProfileId } = useProfile()

@@ -9,7 +9,7 @@ import NeedHelp from '../utils/Subscriptions/NeedHelp';
 import PlanFeatures from '../utils/Subscriptions/PlanFeatures';
 import NoSubscriptionText from '../utils/Subscriptions/NoSubscriptionText';
 import ActionButtons from '../utils/Subscriptions/ActionButtons';
-import { useProfile } from '@/contexts/ProfileContext';
+import { useProfile } from '@/contexts/profileContext';
 import { useNavigate } from 'react-router-dom';
 
 
